@@ -30,7 +30,7 @@ const SponsorshipPage: React.FC = () => {
               <div className="w-16 h-16 bg-zinc-950 border border-zinc-800 rounded-2xl flex items-center justify-center group-hover:bg-yellow-500 transition-all duration-500">
                 <Target size={32} className="text-yellow-500 group-hover:text-black transition-colors" />
               </div>
-              <span className="text-yellow-500 text-[10px] font-black tracking-widest uppercase">[ Visibility ]</span>
+              
             </div>
             <h3 className="text-2xl font-serif-cinematic font-black mb-8">Brand Visibility</h3>
             <ul className="space-y-4">
@@ -46,7 +46,7 @@ const SponsorshipPage: React.FC = () => {
               <div className="w-16 h-16 bg-zinc-950 border border-zinc-800 rounded-2xl flex items-center justify-center group-hover:bg-yellow-500 transition-all duration-500">
                 <Users size={32} className="text-yellow-500 group-hover:text-black transition-colors" />
               </div>
-              <span className="text-yellow-500 text-[10px] font-black tracking-widest uppercase">[ Engagement ]</span>
+              
             </div>
             <h3 className="text-2xl font-serif-cinematic font-black mb-8">Engagement Opportunities</h3>
             <ul className="space-y-4">
@@ -63,7 +63,6 @@ const SponsorshipPage: React.FC = () => {
               <div className="w-16 h-16 bg-zinc-950 border border-zinc-800 rounded-2xl flex items-center justify-center group-hover:bg-yellow-500 transition-all duration-500">
                 <Megaphone size={32} className="text-yellow-500 group-hover:text-black transition-colors" />
               </div>
-              <span className="text-yellow-500 text-[10px] font-black tracking-widest uppercase">[ Reach ]</span>
             </div>
             <h3 className="text-2xl font-serif-cinematic font-black mb-8">Media & Promotion Reach</h3>
             <ul className="space-y-4">
