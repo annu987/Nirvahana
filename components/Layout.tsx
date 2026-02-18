@@ -203,7 +203,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
           <div>
             <h4 className="text-[10px] font-black tracking-[0.3em] text-zinc-100 uppercase mb-6 opacity-50">PARTICIPATE</h4>
             <ul className="space-y-3 text-sm text-zinc-500 font-light">
-              <li><a href="/#register" className="hover:text-yellow-500 transition-all duration-300 block">Register Film</a></li>
+              <li><a href="https://unstop.com/o/4rB5TCH?lb=kxontOSf&utm_medium=Share&utm_source=events&utm_campaign=Specnir47198" className="hover:text-yellow-500 transition-all duration-300 block">Register Film</a></li>
               <li><Link to="/sponsorship" className="hover:text-yellow-500 transition-all duration-300 block">Sponsor Us</Link></li>
             </ul>
           </div>

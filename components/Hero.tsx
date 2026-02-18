@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Countdown from './Countdown';
 
@@ -33,13 +32,16 @@ const Hero: React.FC = () => {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-5 animate-in fade-in slide-in-from-bottom duration-1000 delay-700">
           <a 
-            href="#register"
+            href="https://unstop.com/o/4rB5TCH?lb=kxontOSf&utm_medium=Share&utm_source=events&utm_campaign=Specnir47198"
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-full sm:w-auto bg-yellow-500 text-black px-14 py-5 rounded-2xl text-[10px] md:text-xs font-black tracking-[0.2em] uppercase transition-all duration-300 shadow-[0_10px_40px_-10px_rgba(234,179,8,0.4)] hover:bg-white hover:scale-105 active:scale-95 text-center"
           >
             REGISTER YOUR FILM
           </a>
+
           <a 
-            href="/sponsorship"
+            href="mailto:nirvahana@stpetershyd.com?subject=Sponsorship Inquiry - Nirvahana Carnival 2026"
             className="w-full sm:w-auto bg-white/5 border border-white/10 text-white px-14 py-5 rounded-2xl text-[10px] md:text-xs font-black tracking-[0.2em] uppercase transition-all duration-300 hover:bg-white/10 hover:border-yellow-500/50 hover:scale-105 active:scale-95 text-center"
           >
             PARTNER WITH US
