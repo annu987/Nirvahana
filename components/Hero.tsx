@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
         </h1>
 
         <p className="text-zinc-500 text-xs md:text-xl font-light tracking-[0.4em] uppercase mb-12 max-w-2xl mx-auto animate-in fade-in duration-1000 delay-300">
-          A Home for Storytellers • SPEC Hyderabad
+          SPEC Hyderabad • A Home for Storytellers
         </p>
 
         <div className="mb-16 animate-in fade-in zoom-in duration-1000 delay-500">
