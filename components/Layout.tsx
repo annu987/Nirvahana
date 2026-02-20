@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Instagram, Menu, X, ArrowUp } from 'lucide-react';
@@ -52,6 +51,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     { name: 'SPONSORS', path: '/sponsorship', isHash: false },
     { name: 'REGISTER', path: '/#register', isHash: true },
     { name: 'CONTACT', path: '/#contact', isHash: true },
+    { name: 'REGISTER AS VENDOR', path: '/vendor', isHash: false },
   ];
 
   return (
@@ -94,12 +94,6 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                   </Link>
                 )
               ))}
-              <Link 
-                to="/vendor" 
-                className="bg-yellow-500 hover:bg-white hover:text-black text-black px-7 py-3 rounded-lg text-[10px] font-black tracking-[0.2em] transition-all duration-300 uppercase hover:scale-105 active:scale-95 shadow-lg shadow-yellow-500/10"
-              >
-                JOIN US
-              </Link>
             </div>
 
             <button
