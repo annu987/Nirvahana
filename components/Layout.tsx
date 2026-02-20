@@ -16,7 +16,6 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
       setScrolled(window.scrollY > 50);
       setShowScrollTop(window.scrollY > 400);
     };
-
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
@@ -50,6 +49,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
       setIsMenuOpen(false);
     } else {
       setIsMenuOpen(false);
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     }
   };
 
@@ -79,9 +79,10 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
             {/* Logos + Title */}
             <Link
               to="/"
+              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
               className="flex items-center gap-3 group transition-transform duration-300 hover:scale-105"
             >
-              {/* College Logo — high visibility */}
+              {/* College Logo */}
               <div className="bg-white rounded-lg px-2.5 py-1.5 shadow-lg ring-1 ring-white/40">
                 <img
                   src={CollegeLogo}
@@ -90,15 +91,17 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                 />
               </div>
 
-              {/* Festival Title */}
-              <span className="font-serif-cinematic text-xl md:text-2xl font-black tracking-tight text-white whitespace-nowrap">
-                <span className="text-yellow-500 transition-colors group-hover:text-white">
-                  Nirvahana
+              {/* Title Responsive */}
+              <div className="flex flex-col leading-tight">
+                <span className="font-serif-cinematic text-lg md:text-2xl font-black tracking-tight text-white">
+                  <span className="text-yellow-500 group-hover:text-white transition-colors">
+                    Nirvahana
+                  </span>
                 </span>
-                <span className="ml-2 font-light tracking-widest text-zinc-100 hidden sm:inline-block group-hover:text-yellow-500 transition-colors uppercase text-xs md:text-sm">
+                <span className="font-light tracking-widest text-zinc-200 uppercase text-[9px] md:text-xs group-hover:text-yellow-500 transition-colors">
                   Film Carnival
                 </span>
-              </span>
+              </div>
 
               {/* Club Logo */}
               <img
@@ -125,6 +128,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                   <Link
                     key={link.name}
                     to={link.path}
+                    onClick={(e) => handleNavClick(e, link.path)}
                     className="text-[10px] font-black tracking-[0.25em] text-zinc-400 hover:text-yellow-500 transition-all duration-300 relative group py-2"
                   >
                     {link.name}
@@ -172,7 +176,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                 <Link
                   key={link.name}
                   to={link.path}
-                  onClick={() => setIsMenuOpen(false)}
+                  onClick={(e) => handleNavClick(e, link.path)}
                   className={`text-3xl font-serif-cinematic font-black tracking-widest text-white hover:text-yellow-500 transition-all duration-300 ${
                     isMenuOpen
                       ? 'translate-y-0 opacity-100'
