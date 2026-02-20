@@ -95,6 +95,9 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                 <span className="text-yellow-500 transition-colors group-hover:text-white">
                   Nirvahana
                 </span>
+                <span className="ml-2 font-light tracking-widest text-zinc-100 hidden sm:inline-block group-hover:text-yellow-500 transition-colors uppercase text-xs md:text-sm">
+                  Film Carnival
+                </span>
               </span>
 
               {/* Club Logo */}
