@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { Instagram, Menu, X, ArrowUp } from 'lucide-react';
-import CollegeLogo from '../src/assets/SPEC LOGO.png';
-import ClubLogo from '../src/assets/Black and Yellow Vintage Film Logo.png';
+import ClubLogo from '../src/assets/nirvahana_logo_white.png';
 
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -82,15 +81,6 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
               className="flex items-center gap-3 group transition-transform duration-300 hover:scale-105"
             >
-              {/* College Logo */}
-              <div className="bg-white rounded-lg px-2.5 py-1.5 shadow-lg ring-1 ring-white/40">
-                <img
-                  src={CollegeLogo}
-                  alt="St Peters Engineering College"
-                  className="h-10 md:h-14 w-auto object-contain"
-                />
-              </div>
-
               {/* Title Responsive */}
               <div className="flex flex-col leading-tight">
                 <span className="font-serif-cinematic text-lg md:text-2xl font-black tracking-tight text-white">
@@ -105,10 +95,10 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
 
               {/* Club Logo */}
               <img
-                src={ClubLogo}
-                alt="Nirvahana Film Club"
-                className="h-7 md:h-10 w-auto object-contain"
-              />
+  src={ClubLogo}
+  alt="Nirvahana Film Club"
+  className="h-14 md:h-16 lg:h-20 w-auto object-contain"
+ />
             </Link>
 
             {/* Desktop Nav */}
