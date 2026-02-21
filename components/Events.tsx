@@ -6,11 +6,11 @@ const events = [
     category: 'COMPETITION',
     title: 'Short Film Contest',
     shortDesc: 'The premier competition for student filmmakers. Submit your masterpieces and compete for the inaugural Golden Reel Trophy.',
-    longDesc: 'Our flagship event invites student creators to showcase their narrative vision. Films must be 3-15 minutes. Entries will be judged on storytelling, technical execution, and originality by a panel of industry veterans.',
+    longDesc: 'Our flagship event invites student creators to showcase their narrative vision. Films must be 3-20 minutes. Entries will be judged on storytelling, technical execution, and originality by a panel of industry veterans.',
     details: [
       'Eligibility: Open to all college students nationwide.',
       'Theme: Open (No specific theme constraints).',
-      'Prize Pool: Upto ₹30,000.',
+      'Prize: Exciting Cash Prizes and more',
       'Format: MP4/MOV, 1080p minimum.'
     ],
     icon: <Film className="text-yellow-500" />
