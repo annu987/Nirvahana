@@ -291,7 +291,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-zinc-900/50 flex flex-col md:flex-row justify-between items-center text-[10px] font-bold tracking-[0.2em] text-zinc-600 uppercase text-center md:text-left">
           <p>© 2026 NIRVAHANA FILM CLUB. ST PETER'S ENGINEERING COLLEGE.</p>
           <p className="mt-4 md:mt-0 font-serif-cinematic">
-            MARCH 23-25, 2026
+            MARCH 23-24, 2026
           </p>
         </div>
       </footer>
