@@ -4,17 +4,12 @@ import React from 'react';
 const timeline = [
   {
     day: "23RD",
-    title: 'PODCAST',
+    title: 'PODCAST + MOVIE NIGHT',
     desc: 'Deep-dive discussions into the art of filmmaking and storytelling.'
   },
   {
     day: "24TH",
-    title: 'CARNIVAL + MOVIE NIGHT',
-    desc: 'A vibrant celebration followed by an immersive cinematic screening.'
-  },
-  {
-    day: "25TH",
-    title: 'FILM CARNIVAL',
+    title: 'CARNIVAL + FILM CARNIVAL',
     desc: 'The grand finale: Awards, screenings, and the ultimate celebration.'
   }
 ];
