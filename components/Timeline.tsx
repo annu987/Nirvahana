@@ -20,7 +20,7 @@ const Timeline: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-24">
           <span className="text-yellow-500 text-[10px] font-black tracking-[0.5em] uppercase mb-6 block">EVENT SCHEDULE</span>
-          <h2 className="text-5xl md:text-9xl font-serif-cinematic font-black mb-4 uppercase tracking-tighter">MARCH 23-25</h2>
+          <h2 className="text-5xl md:text-9xl font-serif-cinematic font-black mb-4 uppercase tracking-tighter">MARCH 23-24</h2>
           <div className="w-20 h-1 bg-yellow-500 mx-auto rounded-full"></div>
         </div>
 
