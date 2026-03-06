@@ -5,10 +5,10 @@ const Stats: React.FC = () => {
   return (
     <section className="bg-yellow-500 py-20 px-4">
       <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-12">
-        <StatItem value="3000+" label="EXPECTED VISITORS" />
-        <StatItem value="10" label="FESTIVAL EVENTS" />
-        <StatItem value="200+" label="TARGET SUBMISSIONS" />
-        <StatItem value="3" label="GRAND DAYS" />
+        <StatItem value="1500+" label="EXPECTED VISITORS" />
+        <StatItem value="5" label="FESTIVAL EVENTS" />
+        <StatItem value="100+" label="TARGET SUBMISSIONS" />
+        <StatItem value="2" label="GRAND DAYS" />
       </div>
     </section>
   );

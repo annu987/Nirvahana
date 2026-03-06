@@ -9,7 +9,7 @@ const timeline = [
   },
   {
     day: "24TH",
-    title: 'CARNIVAL + FILM CARNIVAL',
+    title: 'FILM CARNIVAL',
     desc: 'The grand finale: Awards, screenings, and the ultimate celebration.'
   }
 ];

@@ -23,14 +23,14 @@ const AboutSection: React.FC = () => {
             </p>
 
             <p className="text-zinc-500 text-base md:text-lg not-italic">
-              Founded at St. Peter's Engineering College, the Nirvahana Film Carnival bridges the gap between technical expertise and creative expression. Join us for three days of immersive storytelling.
+              Founded at St. Peter's Engineering College, the Nirvahana Film Carnival bridges the gap between technical expertise and creative expression. Join us for two days of immersive storytelling.
             </p>
           </div>
 
           <div className="grid grid-cols-2 gap-10 py-10 border-t border-zinc-900">
             <div>
               <h5 className="text-yellow-500 text-[10px] font-black tracking-widest uppercase mb-3">
-                3 GRAND DAYS
+                2 GRAND DAYS
               </h5>
               <p className="text-zinc-600 text-xs leading-relaxed">
                 A curated journey from Podcast deep-dives to red-carpet finales.

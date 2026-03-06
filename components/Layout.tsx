@@ -270,7 +270,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
             <ul className="space-y-3 text-sm text-zinc-500 font-light">
               <li>
                 <a
-                  href="https://unstop.com/o/4rB5TCH?lb=kxontOSf&utm_medium=Share&utm_source=events&utm_campaign=Specnir47198"
+                  href="https://forms.gle/keQn6Ldj8X9xK4w49"
                   className="hover:text-yellow-500 transition-all duration-300 block"
                 >
                   Register Film
