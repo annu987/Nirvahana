@@ -1,5 +1,5 @@
 import React from 'react';
-import poster from "/src/assets/NIRVAHANA-FILM-CARNIVAL.png";
+import poster from "/src/assets/NIRVAHANA-FILM-CARNIVAL.jpeg";
 
 
 const AboutSection: React.FC = () => {
@@ -54,14 +54,20 @@ const AboutSection: React.FC = () => {
 
           <div className="relative z-10 flex items-center justify-center">
             
-            <div className="relative aspect-[3/4.5] w-full max-w-[420px] overflow-hidden rounded-2xl shadow-2xl border border-zinc-900 group-hover:border-yellow-500/40 transition-all duration-700 bg-zinc-950">
+            <div className="relative w-full max-w-[420px] rounded-2xl shadow-2xl border border-zinc-900 bg-black overflow-hidden">
               
               {/* ✅ YOUR POSTER IMAGE */}
               <img 
                 src={poster}
                 alt="Nirvahana Film Carnival"
-                className="w-full h-full object-cover"
+                className="
+                  w-full
+                  h-auto
+                  brightness-110
+                  contrast-110
+                "
               />
+
             </div>
           </div>
         </div>
